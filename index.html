@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <form id="greetings">
+      <div id="hello">Hello stranger, what's your name?</div>
+      <input type="text" />
+      <div id="ifTextNull"></div>
+    </form>
+    <span id="god"
+      ><span id="leftSector">
+        <div id="todoTitle">Todo List</div>
+        <ul id="todoList"></ul>
+        <div id="routineTitle">Routine List</div>
+        <ul id="routineList"></ul>
+      </span>
+      <span id="middleSector">
+        <span id="clockSector">
+          <div id="clock"></div>
+          <div>
+            <span id="feeling"></span>
+            <span id="weather">
+              <span id="temparature"></span>
+              <span id="place"></span>
+            </span>
+          </div>
+        </span>
+        <form id="todoForm">
+          <div id="todoFeel">What is your todo today?</div>
+          <input type="text" id="todoInput" />
+          <div id="ifTodoNull"></div>
+        </form>
+        <div id="doNowSector">
+          <div id="besideRecord">Click record button in the list!</div>
+          <div id="doNow"></div>
+          <button id="recordButton">▶️</button>
+          <button id="stopRecordButton">⬛</button>
+          <div id="timeDoNow"></div>
+        </div>
+      </span>
+      <span id="rightSector">
+        <span id="changeDaily">
+          <div>
+            <button id="timelineBtn">Timeline</button>
+            <button id="chartBtn">Chart</button>
+          </div>
+          <ul id="timeline"></ul>
+          <ul id="chart"></ul>
+        </span>
+        <span id="dailyTimeline"></span>
+      </span>
+    </span>
+
+    <script src="src/clock.js"></script>
+    <script src="src/background.js"></script>
+    <script src="src/index.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/weather.js"></script>
+  </body>
+</html>

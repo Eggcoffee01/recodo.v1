@@ -1,0 +1,204 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+.todoCheck {
+  text-decoration: line-through;
+}
+#god {
+  display: none;
+}
+
+#todoList,
+#routineList {
+  background-color: rgba(35, 35, 35, 0.4);
+  height: 385px;
+  margin: 0;
+  overflow: auto;
+}
+#todoList li,
+#routineList li {
+  font-size: 20px;
+  color: white;
+  height: 25px;
+  border-bottom: 1px solid black;
+  margin: 0;
+}
+#todoTitle,
+#routineTitle {
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 100px;
+  font-size: 50px;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  border-left: solid 3px violet;
+  border-right: solid 3px violet;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+li span {
+  padding: 0;
+  border: 0;
+}
+
+#greetings {
+  text-align: center;
+  display: none;
+}
+#greetings #hello {
+  font-size: 54px;
+}
+#greetings #ifTextNull {
+  margin-top: 10px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+#greetings input {
+  width: 840px;
+  height: 72px;
+  font-size: 54px;
+  background-color: #00ff0000;
+  border-color: #00ff0000;
+  border-bottom: 4px solid black;
+  margin-top: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+
+#clockSector {
+  font-weight: bold;
+  color: white;
+}
+#clock {
+  font-size: 168px;
+}
+#feeling {
+  font-size: 54px;
+}
+#todoForm {
+  margin-top: 50px;
+  color: white;
+}
+#todoForm #todoFeel {
+  font-size: 54px;
+}
+#todoForm #ifTodoNull {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+#todoInput {
+  width: 840px;
+  height: 72px;
+  font-size: 54px;
+  background-color: #00ff0000;
+  border-color: #00ff0000;
+  border: 4px solid white;
+  margin-top: 20px;
+  font-weight: normal;
+  color: white;
+}
+#changeName {
+  background-color: #00ff0000;
+  font-size: 40px;
+  height: 70px;
+  width: 70px;
+  border: 0;
+}
+#doNowSector {
+  color: white;
+}
+#besideRecord {
+  margin-top: 100px;
+}
+#doNow {
+  display: none;
+  font-size: 40px;
+  border: 2px solid green;
+}
+#recordButton {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: green;
+  margin-top: 40px;
+  display: none;
+  width: 200px;
+  height: 50px;
+}
+#stopRecordButton {
+  background-color: red;
+  margin-top: 40px;
+  display: none;
+  width: 200px;
+  height: 50px;
+}
+#recordButtonSector {
+  height: 100px;
+  width: 850px;
+}
+#timeDoNow {
+  height: 100px;
+  font-size: 100%;
+}
+
+#changeDaily {
+  margin: 0px;
+}
+#chart {
+  display: none;
+  margin: 0;
+  overflow: auto;
+  width: 490px;
+  height: 950px;
+  background-color: rgba(100, 100, 100, 0.5);
+}
+#chart div {
+  color: white;
+}
+#timelineBtn,
+#chartBtn {
+  float: left;
+  margin: 0;
+  width: 245px;
+}
+#timeline li {
+  color: white;
+}
+#timeline {
+  display: block;
+  margin: 0;
+  overflow: auto;
+  width: 490px;
+  height: 950px;
+  background-color: rgba(100, 100, 100, 0.5);
+}
+
+#middleSector {
+  height: 970px;
+  background-color: rgba(35, 35, 35, 0.4);
+  text-align: center;
+  float: left;
+  display: block;
+}
+#leftSector {
+  height: 950px;
+  width: 535px;
+  float: left;
+  display: block;
+}
+#rightSector {
+  height: 950px;
+  width: 495px;
+  float: left;
+  display: block;
+}
+
+.clicked {
+  background-color: violet;
+}
+
+.clicked #delete {
+  display: none;
+}
